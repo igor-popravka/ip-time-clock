@@ -1,2 +1,8 @@
-# ip-time-clock
-PSR-20 Clock implementation that returns the current time based on the server's external IP address using geolocation and time zone APIs.
+# IP Time Clock
+
+Composer-пакет, реалізуючий `\Psr\Clock\ClockInterface`, який повертає правильний поточний час на сервері згідно з його геолокацією.
+
+## 🔧 Встановлення
+
+```bash
+composer require your-vendor/ip-time-clock
