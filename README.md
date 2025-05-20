@@ -2,7 +2,7 @@
 # IP Time Clock
 
 [![Latest Version](https://img.shields.io/github/release/igor-popravka/ip-time-clock.svg)](https://github.com/igor-popravka/ip-time-clock/releases)
-[![PHP Version](https://img.shields.io/packagist/php-v/your-vendor/ip-time-clock.svg)](https://www.php.net/)
+[![PHP Version](https://img.shields.io/packagist/php-v/igor-popravka/ip-time-clock.svg)](https://www.php.net/)
 [![License](https://img.shields.io/github/license/igor-popravka/ip-time-clock.svg)](LICENSE)
 
 A Composer package implementing `\Psr\Clock\ClockInterface` that returns the accurate current server time based on its geolocation (determined by IP address).
