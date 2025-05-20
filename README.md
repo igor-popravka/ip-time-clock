@@ -25,7 +25,7 @@ composer require igor-popravka/ip-time-clock
 
 ```php
 use IpTimeClock\Clock;
-use IpTimeClock\Adapter\WorldTimeApiAdapter;
+use IpTimeClock\Adapter\TimeIpIoAdapter;
 use GuzzleHttp\Client;
 
 // Initialize HTTP client (Guzzle)
@@ -35,7 +35,7 @@ $client = new Client();
 $ip = null;
 
 // Create adapter
-$adapter = new WorldTimeApiAdapter($client, $ip);
+$adapter = new TimeIpIoAdapter($client);
 
 // Create Clock instance
 $clock = new Clock($adapter);
